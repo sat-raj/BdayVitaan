@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Page</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header">
+          <div class="quiz_user">
+            <h4>Happy Birthday Doctor! <span class="name"></span></h4>
+          </div>
+          
+        </div>
+        <div class="quiz_body">
+          <div id="questions">
+          
+
+            <!-- <ul class="option_group">
+              <li class="option">option 1</li>
+              <li class="option">option 2</li>
+              <li class="option">option 3</li>
+              <li class="option">option 4</li>
+            </ul> -->
+          </div>
+          <div class="wish">
+            You got it right. Here is something from the person-
+            <a class="glink" href="" target="_blank">Mujhhe Dabaiye</a>
+          </div>
+          <div class="no-wish">
+            Bhosdiwale Galat Hai!!!!
+          </div>
+          <button class="btn btn-submit" onclick="wish()">Submit</button>
+          <button class="btn btn-next" onclick="next()">Next Question</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- site.js -->
+    <script src="dist/js/site.js"></script>
+
+  </body>
+</html>
